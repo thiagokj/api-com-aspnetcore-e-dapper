@@ -1,0 +1,16 @@
+{
+  "Env": "dev",
+  "ConnectionStrings": {
+    "DefaultConnection": "Server=localhost,1433;Database=database;User ID=user;Password=pass; TrustServerCertificate=True"
+  },
+  "ApplicationInsights": {
+    "InstrumentationKey": "0b45956c-8a63-415b-99c5-7c8952c3cba7"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
